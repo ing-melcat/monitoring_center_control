@@ -1,0 +1,19 @@
+{
+  "name": "centro-de-control",
+  "version": "1.0.0",
+  "description": "Centro de Control y Recepción de Telemetría ROS 2 / LiveKit — Research Unit of Robotics (UNIPOLI Durango)",
+  "organization": "Research-Unit-of-Robotics",
+  "private": true,
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "node server.js",
+    "launch:win": "RUR-Centro-de-Control.bat",
+    "launch:linux": "bash ./rur-launcher.sh",
+    "audit:design": "node scripts/detect.mjs public/index.html server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-pty": "^1.1.0",
+    "ws": "^8.17.0"
+  }
+}

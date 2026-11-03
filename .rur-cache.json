@@ -1,0 +1,55 @@
+{
+  "robots": [
+    {
+      "id": "rassor-1",
+      "name": "rassor",
+      "status": "offline",
+      "room": "room-1",
+      "livekitUrl": "wss://rassor-tb5pwrbm.livekit.cloud",
+      "rosDomainId": 42,
+      "locomotionType": "tank",
+      "hasCredentials": true,
+      "apiKeyFingerprint": "06b0809c8e99",
+      "secretFingerprint": "eb45f5790c2d",
+      "version": 1,
+      "updatedAt": "2026-11-02T21:40:10.907Z"
+    },
+    {
+      "id": "rassor-8681",
+      "name": "room-1",
+      "status": "offline",
+      "room": "room-1",
+      "livekitUrl": "wss://project-a-pvf9s3gy.livekit.cloud",
+      "rosDomainId": 42,
+      "locomotionType": "joystick",
+      "hasCredentials": true,
+      "apiKeyFingerprint": "5405197193cd",
+      "secretFingerprint": "4788cedf6139",
+      "version": 1,
+      "updatedAt": "2026-11-02T21:40:10.907Z"
+    }
+  ],
+  "activeContext": {
+    "robotId": "rassor-1",
+    "name": "rassor",
+    "room": "room-1",
+    "livekitUrl": "wss://rassor-tb5pwrbm.livekit.cloud",
+    "rosDomainId": "42",
+    "tokens": {
+      "receiver": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoicmFzc29yIChyZWNlcHRvcikiLCJ2aWRlbyI6eyJyb29tSm9pbiI6dHJ1ZSwicm9vbSI6InJvb20tMSIsImNhblB1Ymxpc2giOnRydWUsImNhblN1YnNjcmliZSI6dHJ1ZSwiY2FuUHVibGlzaERhdGEiOnRydWV9LCJpc3MiOiJBUElSMkRYNjdiZVBFc20iLCJleHAiOjE3OTM2OTIzNjksIm5iZiI6MTc5MzY3Nzk2OSwic3ViIjoicm9ib3QtcmFzc29yLTEifQ.czgtrZ61-dOyWq56m338RNpp2QktFHPZ7l6kTQW1MmM",
+      "camera": "eyJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoicmFzc29yIChjw6FtYXJhKSIsInZpZGVvIjp7InJvb21Kb2luIjp0cnVlLCJyb29tIjoicm9vbS0xIiwiY2FuUHVibGlzaCI6dHJ1ZSwiY2FuU3Vic2NyaWJlIjp0cnVlLCJjYW5QdWJsaXNoRGF0YSI6dHJ1ZX0sImlzcyI6IkFQSVIyRFg2N2JlUEVzbSIsImV4cCI6MTc5MzY5MjM2OSwibmJmIjoxNzkzNjc3OTY5LCJzdWIiOiJyb2JvdC1yYXNzb3ItMS1jYW0ifQ.vHg0LlGsUGqrMeJ4WJJxuwToBOkumZrK9sBzaAzpsXU"
+    },
+    "expiresAt": "2026-11-03T07:52:49.285Z",
+    "source": "web",
+    "version": 1,
+    "hasToken": true
+  },
+  "syncStatus": {
+    "ok": true,
+    "lastSync": "2026-11-03T03:56:13.635Z",
+    "error": null,
+    "code": "OK",
+    "mode": "web_https",
+    "etag": "\"e804136e64019da04117bff77287c3b0-zstd\""
+  }
+}

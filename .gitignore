@@ -1,0 +1,22 @@
+# Dependencias y binarios compilados
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Credenciales y Secretos (NUNCA subir a GitHub)
+.env
+.env.*
+scripts/.env
+scripts/.env.*
+*.pem
+*.key
+.rur-secrets.json
+.rur-config.json
+.rur-cache.json
+.rur-session.json
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
