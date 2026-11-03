@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/34303917/README.md)
-# Centro de Control de Operaciones RUR (Estación Terrena)
+# Centro de Control de Operaciones RUR 
 ### Sistema de Teleoperación, Recepción de Telemetría y Percepción Robótica en Tiempo Real
 **División:** Research Unit of Robotics (RUR)  
 **Institución:** Universidad Politécnica de Durango (UNIPOLI)  
